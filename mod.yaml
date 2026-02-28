@@ -1,0 +1,8 @@
+version: "1.0.0"
+name: Git
+shorthand: git
+description: Git version control integration for Flint meshes
+
+commands:
+  onInstall:
+    - git init
